@@ -1,0 +1,20 @@
+.grid-cell
+{
+    width: 10px;
+    height: 10px;
+
+    background-color: red;
+}
+
+.grid-cell.active
+{
+    background-color: blue;
+}
+
+.grid-row
+{
+    display: flex;
+    width: 100%;
+    gap: 2px;
+    margin: 2px;
+}
