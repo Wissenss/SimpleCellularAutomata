@@ -1,14 +1,18 @@
+body{
+    background-color: gray;
+}
+
 .grid-cell
 {
     width: 10px;
     height: 10px;
 
-    background-color: red;
+    background-color: black;
 }
 
 .grid-cell.active
 {
-    background-color: blue;
+    background-color: white;
 }
 
 .grid-row
